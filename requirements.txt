@@ -1,0 +1,6 @@
+requests
+websocket-client 
+dashscope
+bs4
+urllib3
+beautifulsoup4

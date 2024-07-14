@@ -1,0 +1,61 @@
+{
+  "dashscope_api_key": {
+    "default": "YOUR_API_KEY_HERE"
+  },
+  "nga_cookie": {
+    "default": "YOUR_OWN_COOKIE_HERE"
+  },
+  "bilibili_cookie": {
+    "default": "YOUR_OWN_COOKIE_HERE"
+  },
+  "url": {
+    "nga": {
+      "default": "http://ngabbs.com/post.php",
+      "backup-1": "http://nga.178.com/post.php",
+      "backup-2": "http://bbs,nga.cn/post.php"
+    },
+    "bilibili": {
+      "default": "https://api.bilibili.com/x/polymer/web-dynamic/v1/feed/space"
+    }
+  },
+  "site": {
+    "crosscore":{
+      "name": "crosscore",
+      "user_id_dict": "701179700",
+      "action": "new",
+      "fid": 823,
+      "stid": 38888482,
+      "tid": ""
+    }
+  },
+  "header": {
+    "bilibili": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36 Edg/119.0.0.0",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-User": ",?1",
+            "Sec-Fetch-Dest": "iframe",
+            "Content-Type": "application/x-www-form-urlencoded;charset=gbk",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+        },
+    "nga": {
+            "Host": "ngabbs.com",
+            "Cache-Control": "max-age=0",
+            "Sec-Ch-Ua": ",\"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+            "Sec-Ch-Ua-Mobile": ",?0",
+            "Sec-Ch-Ua-Platform": ",\"Windows\"",
+            "Origin": "https://ngabbs.com",
+            "Content-Type": "application/x-www-form-urlencoded;charset=gbk",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-User": ",?1",
+            "Sec-Fetch-Dest": "iframe",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Priority": "u=0, i",
+            "Connection": "close",
+            "accept-charset": "gbk"
+       }
+  }
+}
